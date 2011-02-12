@@ -2,6 +2,7 @@
 $pageTitle = "New article";
 include("inc/page/header.php");
 include("inc/page/navigation.php");
+include("simplepie/simplepie.inc");
 ?>
 
 <div class="column75 wrapping">

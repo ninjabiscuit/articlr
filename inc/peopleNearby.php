@@ -14,4 +14,7 @@
         }
         ?>
     </ul>
+    <div class="actions">
+        <a href="people.php" class="small awesome green primary">View more</a>
+    </div>
 </div>
