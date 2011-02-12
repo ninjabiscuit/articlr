@@ -1,7 +1,7 @@
 <?php
 $pageTitle  = "New article";
 $current    = "new";
-include("inc/page/header.php");
+include("inc/page/overlayHeader.php");
 ?>
 <div id="content">
     <h1>People near you</h1>
@@ -21,5 +21,5 @@ include("inc/page/header.php");
     </ul>
 </div>
 <?php
-include("inc/page/footer.php");
+include("inc/page/overlayFooter.php");
 ?>
