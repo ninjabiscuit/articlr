@@ -89,9 +89,8 @@ include("inc/page/navigation.php");
 <div class="column25">
     <?php
         include("inc/relatedTweets.php");
-        include("inc/relatedArticles.php");
         include("inc/peopleNearby.php");
-        include("inc/myLocation.php");
+        include("inc/relatedArticles.php");        
     ?>
 </div>
 

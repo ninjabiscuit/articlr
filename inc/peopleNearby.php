@@ -1,10 +1,15 @@
-<div id="peopleNearby">
+<div id="peopleNearby" class="wrapping">
     <h2>People near you</h2>
     <ul>
         <?php
-        for ($i=0; $i<10; $i++) {
+        for ($i=1; $i<10; $i++) {
         ?>
-        <li><img src="i/profiles/<?php echo $i;?>.jpg" /></li>
+        <li>
+            <a href="">
+                <img src="i/profiles/<?php echo $i;?>.jpg" />
+                <span class="username">@flexewebs</span>
+            </a>
+        </li>
         <?php
         }
         ?>

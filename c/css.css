@@ -10,6 +10,7 @@ ol,ul{list-style-type:none;}
 #page{-moz-box-shadow:0 0 10px #ccc;-webkit-box-shadow:0 0 10px #aaa;-moz-border-radius:10px;-webkit-border-radius:10px;margin:10px auto;padding:6px 10px;width:940px;overflow: hidden; }
 #header,#content,#navigation,#footer{-moz-border-radius:10px;-webkit-border-radius:10px;float:left;margin:0 0 1px;padding:5px 10px 10px 10px;width:920px;}
 
+#logo { float: left; width: 200px; }
 #content{-moz-box-shadow:0 0 5px #ccc;-webkit-box-shadow:0 0 5px #ccc;margin:1px 0;padding-bottom: 0;}
 
 .wrapping { -moz-box-shadow:0 0 5px #ccc;-webkit-box-shadow:0 0 5px #aaa;-moz-border-radius: 5px;-webkit-border-radius: 5px; }
@@ -32,8 +33,19 @@ ol,ul{list-style-type:none;}
 #relatedPictures { width: 920px; float: left; padding: 10px; margin: 10px 0 0 0; }
 #relatedPictures li { float: left; margin: 0 10px 0 0; }
 
-#relatedArticles, #relatedTweets, #myLocation { padding: 10px; width: 220px; }
+#peopleNearby li { float: left; margin: 0 0 10px 0; }
+#peopleNearby .username { font-size: 9px; }
+#peopleNearby a { width: 55px; float: left; }
 
-#relatedArticles h2, #relatedTweets h2, #myLocation h2 { padding: 5px 10px; background: #FFE0A9; margin: -10px 0 10px -10px; width: 220px; -moz-border-radius:5px;-webkit-border-radius:5px; }
+#relatedArticles li { margin: 0 0 10px 0; border-bottom: 1px solid #ddd; padding: 0 0 10px 0; float: left; width: 100%; }
+#relatedArticles .tweets { font-size: 10px; color: #333; float: left; width: 100%; margin: 5px 0 0 0; }
+#relatedArticles .source { font-weight: bold; color: #aaa; }
 
-#relatedArticles, #myLocation { margin: 10px 0 0 0; }
+#myLocation { float: right; padding: 5px; margin: 0 -10px 0 0; }
+#myLocation * { margin: 0; }
+
+#relatedArticles, #relatedTweets, #peopleNearby { padding: 10px; width: 220px; float: left; }
+
+#relatedArticles h2, #relatedTweets h2, #myLocation h2, #peopleNearby h2 { padding: 5px 10px; background: #FFE0A9; margin: -10px 0 10px -10px; width: 220px; -moz-border-radius:5px;-webkit-border-radius:5px; }
+
+#relatedArticles, #peopleNearby { margin: 10px 0 0 0; }

@@ -37,5 +37,8 @@
 <body>
   <div id="page">
       <div id="header">
-          <h1>Journalist Tool</h1>
+          <div id="logo">
+            <h1>Articlr</h1>
+          </div>
+          <?php include("inc/myLocation.php"); ?>
       </div>
