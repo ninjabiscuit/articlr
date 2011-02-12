@@ -73,6 +73,7 @@ include("simplepie/simplepie.inc");
         </div>
     </form>
 </div>
+
 <div class="column25">
     <?php
         include("inc/interestedIn.php");

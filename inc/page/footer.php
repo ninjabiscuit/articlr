@@ -10,6 +10,8 @@
 <script>!window.jQuery && document.write(unescape('%3Cscript src="j/jquery-1.5.js"%3E%3C/script%3E'))</script>
 
 <script type="text/javascript" src="j/facebox.js"></script>
+<script src="http://www.google.com/jsapi" type="text/javascript"></script>
+
 <!-- scripts concatenated and minified via ant build script-->
 <script src="j/plugins.js"></script>
 <script src="j/app.js"></script>
