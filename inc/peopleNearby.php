@@ -1,5 +1,5 @@
 <div id="peopleNearby" class="wrapping">
-    <h2>People near you</h2>
+    <h2>People near by</h2>
     <ul>
         <?php
         for ($i=1; $i<10; $i++) {

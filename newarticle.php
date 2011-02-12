@@ -4,7 +4,7 @@ include("inc/page/header.php");
 include("inc/page/navigation.php");
 ?>
 
-<div class="column75 wrapping">
+<div class="column75 wrapping" contenteditable="true">
     <h1>Mubarak steps down as President of Egypt</h1>
     <p>Locals with ties to Egypt are joining the hundreds of thousands of 
         people celebrating as President Hosni Mubarak resigns. This comes after
@@ -88,6 +88,7 @@ include("inc/page/navigation.php");
 </div>
 <div class="column25">
     <?php
+        include("inc/interestedIn.php");
         include("inc/relatedTweets.php");
         include("inc/peopleNearby.php");
         include("inc/relatedArticles.php");        

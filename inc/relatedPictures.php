@@ -1,5 +1,5 @@
 <div id="relatedPictures" class="wrapping">
-    <h2>Related pictures from near by</h2>
+    <h2>Local pictures</h2>
     <ul>
         <?php
         for($i=1; $i<6; $i++) {
