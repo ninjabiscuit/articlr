@@ -1,8 +1,8 @@
 <?php
-$pageTitle = "New article";
+$pageTitle  = "New article";
+$current    = "new";
 include("inc/page/header.php");
 include("inc/page/navigation.php");
-include("simplepie/simplepie.inc");
 ?>
 
 <div class="column75 wrapping">

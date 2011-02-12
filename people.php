@@ -1,5 +1,10 @@
-<div id="peopleNearby" class="wrapping">
-    <h2>People near by</h2>
+<?php
+$pageTitle  = "New article";
+$current    = "new";
+include("inc/page/header.php");
+?>
+<div id="content">
+    <h1>People near you</h1>
     <ul>
         <?php
         for ($i=1; $i<9; $i++) {
@@ -14,7 +19,7 @@
         }
         ?>
     </ul>
-    <div class="actions">
-        <a href="people.php" class="small awesome green primary">View more</a>
-    </div>
 </div>
+<?php
+include("inc/page/footer.php");
+?>
