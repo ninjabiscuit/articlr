@@ -26,10 +26,10 @@
 
 
   <!-- CSS : implied media="all" -->
-  <link rel="stylesheet" type="text/css" href="/c/css.css" /> 
+  <link rel="stylesheet" type="text/css" href="c/css.css" /> 
  
   <!-- All JavaScript at the bottom, except for Modernizr which enables HTML5 elements & feature detects -->
-  <script src="js/libs/modernizr-1.6.min.js"></script>
+  <script src="j/modernizr-1.6.min.js"></script>
   
 
 </head>
