@@ -1,0 +1,39 @@
+*{color:#2B3E42;font-family:sans-serif;font-weight:400;margin:0;padding:0;}
+img{border:none;}
+a{color:#092C71;text-decoration:none;}
+h1{font-size:1.4em;}
+.column75 h1 { margin: 0 0 20px 0; }
+h2{font-size:1.2em;}
+h3{font-size:1.1em;margin:0 0 5px;}
+h2, h3, p { margin: 0 0 10px 0; }
+ol,ul{list-style-type:none;}
+#page{-moz-box-shadow:0 0 10px #ccc;-webkit-box-shadow:0 0 10px #aaa;-moz-border-radius:10px;-webkit-border-radius:10px;margin:10px auto;padding:6px 10px;width:940px;overflow: hidden; }
+#header,#content,#navigation,#footer{-moz-border-radius:10px;-webkit-border-radius:10px;float:left;margin:0 0 1px;padding:5px 10px 10px 10px;width:920px;}
+
+#content{-moz-box-shadow:0 0 5px #ccc;-webkit-box-shadow:0 0 5px #ccc;margin:1px 0;padding-bottom: 0;}
+
+.wrapping { -moz-box-shadow:0 0 5px #ccc;-webkit-box-shadow:0 0 5px #aaa;-moz-border-radius: 5px;-webkit-border-radius: 5px; }
+
+.column75, .column25 { float: left; }
+
+.column75   { width: 670px; padding: 10px; margin: 0 10px 0 0; }
+.column25   { width: 240px; }
+
+#footer{padding:2px 0 2px 10px;width:930px;}
+#footer { padding-bottom: 5px; }
+#footer p{font-size:0.8em;margin:10px 0 0;text-align:center;}
+#footer a {color:#fff;}
+
+#navigation { float: left; width: 1000px; border: 1px solid #ddd; border-left: 0; border-right: 0; margin: 0 0 10px -20px; padding: 0; }
+#navigation li { width: 33.33%; float: left; text-align: center; border-right: 1px solid #ddd; margin-left: -1px; }
+#navigation a { float: left; width: 100%;  padding: 10px 0; }
+#navigation a:hover { background: #FF4F00; color: #fff; }
+
+#relatedPictures { width: 920px; float: left; padding: 10px; margin: 10px 0 0 0; }
+#relatedPictures li { float: left; margin: 0 10px 0 0; }
+
+#relatedArticles, #relatedTweets, #myLocation { padding: 10px; width: 220px; }
+
+#relatedArticles h2, #relatedTweets h2, #myLocation h2 { padding: 5px 10px; background: #FFE0A9; margin: -10px 0 10px -10px; width: 220px; -moz-border-radius:5px;-webkit-border-radius:5px; }
+
+#relatedArticles, #myLocation { margin: 10px 0 0 0; }
