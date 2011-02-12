@@ -4,6 +4,6 @@
         <textarea placeholder="Type in the keywords spearated by comma (,)">
 
         </textarea>
-        <input type="submit" value="Update" />
+        <input type="submit" value="Update" class="awesome large green primary" />
     </form>
 </div>
