@@ -7,7 +7,8 @@ h2{font-size:1.2em;}
 h3{font-size:1.1em;margin:0 0 5px;}
 h2, h3, p { margin: 0 0 10px 0; }
 ol,ul{list-style-type:none;}
-#page{-moz-box-shadow:0 0 10px #ccc;-webkit-box-shadow:0 0 10px #aaa;-moz-border-radius:10px;-webkit-border-radius:10px;margin:10px auto;padding:6px 10px 170px 10px;width:940px;overflow: hidden; }
+input { border: 0; }
+#page{-moz-box-shadow:0 0 10px #ccc;-webkit-box-shadow:0 0 10px #aaa;-moz-border-radius:10px;-webkit-border-radius:10px;margin:10px auto;padding:6px 10px 190px 10px;width:940px;overflow: hidden; }
 #header,#content,#navigation,#footer{-moz-border-radius:10px;-webkit-border-radius:10px;float:left;margin:0 0 1px;padding:5px 10px 10px 10px;width:920px;}
 
 #logo { float: left; width: 200px; }
@@ -35,10 +36,11 @@ ol,ul{list-style-type:none;}
 #peopleNearby li { float: left; margin: 0 0 10px 0; }
 #peopleNearby .username { font-size: 9px; }
 #peopleNearby a { width: 55px; float: left; }
+#peopleNearby a.awesome { width: auto; float: right; }
 
 #relatedArticles li, #relatedTweets li { margin: 0 0 10px 0; border-bottom: 1px solid #ddd; padding: 0 0 10px 0; float: left; width: 100%; }
 #relatedArticles .tweets { font-size: 10px; color: #333; float: left; width: 100%; margin: 5px 0 0 0; }
-#relatedArticles .source { font-weight: bold; color: #aaa; }
+#relatedArticles .source { font-weight: bold; color: #aaa; font-size: 12px; }
 
 #relatedTweets li { font-size: 13px; }
 .profile-pic img { width: 24px; float: left; margin: 0 5px 5px 0; }
@@ -46,7 +48,7 @@ ol,ul{list-style-type:none;}
 #myLocation { float: right; padding: 5px; margin: 0 -10px 0 0; }
 #myLocation * { margin: 0; }
 
-#interestedIn textarea { width: 220px; height: 50px; border: 1px solid #ccc; }
+#interestedIn .inputText { -moz-box-shadow:0 0 3px #ccc;-webkit-box-shadow:0 0 3px #aaa;-moz-border-radius: 4px;-webkit-border-radius: 4px; width: 220px; height: 50px; border: 1px solid #ccc; margin: 0 0 10px 0; }
 
 #relatedArticles, #relatedTweets, #peopleNearby, #interestedIn { padding: 10px; width: 220px; float: left; }
 
@@ -54,6 +56,7 @@ ol,ul{list-style-type:none;}
 
 #relatedTweets, #relatedArticles, #peopleNearby { margin: 10px 0 0 0; }
 
+.actions    { float: left; width: 100%; }
 
 .primary { float: right; }
 .secondary { float: left; }
