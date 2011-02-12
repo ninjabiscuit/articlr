@@ -26,7 +26,7 @@ window.log = function(){
   }
 };
 
-
+/*
 
 // catch all document.write() calls
 (function(doc){
@@ -38,3 +38,4 @@ window.log = function(){
 })(document);
 
 
+*/

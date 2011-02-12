@@ -1,17 +1,20 @@
   <div id="footer">
       <p>Real time, geolocated, semantic, cloud based, web driven, socially contextual collaborative journalist mashup.</p>
   </div>
+  <?php include("inc/relatedPictures.php");  ?>
 </div>
 <!-- Javascript at the bottom for fast page loading -->
 
 <!-- Grab Google CDN's jQuery. fall back to local if necessary -->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.js"></script>
-<script>!window.jQuery && document.write(unescape('%3Cscript src="/j/jquery-1.5.js"%3E%3C/script%3E'))</script>
+<script>!window.jQuery && document.write(unescape('%3Cscript src="j/jquery-1.5.js"%3E%3C/script%3E'))</script>
 
-<script type="text/javascript" src="/j/facebox.js"></script>
+<script type="text/javascript" src="j/facebox.js"></script>
+<script src="http://www.google.com/jsapi" type="text/javascript"></script>
+
 <!-- scripts concatenated and minified via ant build script-->
-<script src="/j/plugins.js"></script>
-<script src="/j/app.js"></script>
+<script src="j/plugins.js"></script>
+<script src="j/app.js"></script>
 <!-- end concatenated and minified scripts-->
 
 
