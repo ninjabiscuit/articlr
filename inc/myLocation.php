@@ -1,4 +1,3 @@
-<div id="myLocation" class="wrapping">
-    <h2>My location</h2>
-    <p><span class="city">City</span>, <span class="country">Egypt</span> </p>
+<div id="myLocation" class="wrapping">    
+    <p>You are in: <span class="city">Kairo</span>, <span class="country">Egypt</span> </p>
 </div>
