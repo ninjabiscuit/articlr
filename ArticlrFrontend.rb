@@ -4,6 +4,7 @@ require 'open-uri'
 
 class ArticlrFrontend < Sinatra::Base
     set :root, File.dirname(__FILE__)
+    set :public, File.dirname(__FILE__)
     get '/' do
         File.read('index.html')
     end
