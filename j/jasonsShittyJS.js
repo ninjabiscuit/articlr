@@ -1,6 +1,4 @@
-$(document).ready(function(){
-    $(".column25 .body").hide();
-
+$(document).ready(function(){    
     $('.openclose').click(function() {
         $(this).next("div.body").slideToggle('fast');
     });

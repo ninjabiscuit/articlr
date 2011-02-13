@@ -34,7 +34,7 @@
 </head>
 
 <body>
-  <div id="page">
+  <div id="page" class="page-<?php echo $current;?>">
       <div id="header">
           <div id="logo">
             <h1>Articlr</h1>

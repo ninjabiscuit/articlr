@@ -1,15 +1,29 @@
 <?php
 $pageTitle  = "New article";
-$current    = "new";
+$current    = "brandnew";
 include("inc/page/header.php");
 include("inc/data.php");
 include("inc/page/navigation.php");
 ?>
 
-<div class="column75 wrapping">
+<div class="column75">
     <form>
-        <article contenteditable="true">
-            <?php echo $article; ?>
+        <div id="message">
+            <p>These are the suggestions for what you could write about from this
+            area right now which are not covered by other publishers yet.</p>
+        </div>
+        <article contenteditable="true" class="wrapping">
+
+        <h1>Judges from Google and Guardian disect the hacks</h1>
+
+        <p>Geolocation hack</p>
+        <p>Art and mood audio</p>
+        <p>Journalist collaboration tool</p>
+        <p>Articlr</p>
+        <p>Prizes and awards</p>
+        <p>2 day hack day</p>
+        <p>Guardian mashup</p>
+        
         </article>
         <div class="actions">
             <input type="submit" value="Publish" class="large awesome green primary" />

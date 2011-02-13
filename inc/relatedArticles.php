@@ -1,3 +1,6 @@
+<?php
+if ($keyword == 'egypt') {
+?>
 <div id="relatedArticles" class="wrapping">
     <h2 class="openclose">Competititors' articles</h2>
     <div class="body">
@@ -11,3 +14,4 @@
         </div>
     </div>
 </div>
+<?php } ?>
