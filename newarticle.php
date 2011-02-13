@@ -1,8 +1,8 @@
 <?php
-$pageTitle = "New article";
+$pageTitle  = "New article";
+$current    = "new";
 include("inc/page/header.php");
 include("inc/page/navigation.php");
-include("simplepie/simplepie.inc");
 ?>
 
 <div class="column75 wrapping">
@@ -24,6 +24,7 @@ include("simplepie/simplepie.inc");
             protest calling on Mubarak to step down immediately.</p>
         <p>An Edmonton woman who lives in Egypt described the celebration in the
             streets of Cairo early Friday.</p>
+        <h2>Cairo celebrations</h2>
         <p>"A lot of laughing and singing and dancing and hugging and kissing and
             crying, every emotion in the books," said Rena Saad.</p>
         <p>Local political sciences professor says the removal of what he calls a
@@ -41,6 +42,7 @@ include("simplepie/simplepie.inc");
             people celebrating as President Hosni Mubarak resigns. This comes after
             weeks of protests as demonstrators marched the streets of Cairo demanding
             Mubarak's resignation.</p>
+        <h2>Alexandria police riots</h2>
         <p>Egyptian students at the University of Alberta are calling this one of
             the most important days of their lives.</p>
         <p>"It's the most historic day of my life," said student Mohammed Ahmed.</p>

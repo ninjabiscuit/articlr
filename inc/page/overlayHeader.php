@@ -1,6 +1,6 @@
-<!doctype html>  
+<!doctype html>
 
-<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ --> 
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
 <!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
 <!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]-->
 <!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]-->
@@ -9,7 +9,7 @@
 <head>
   <meta charset="utf-8">
 
-  <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame 
+  <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
        Remove this if you use the .htaccess -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
@@ -28,16 +28,10 @@
   <!-- CSS : implied media="all" -->
   <link rel="stylesheet" type="text/css" href="c/css.css" />
   <link rel="stylesheet" type="text/css" href="c/colorbox.css" />
- 
+
   <!-- All JavaScript at the bottom, except for Modernizr which enables HTML5 elements & feature detects -->
   <script src="j/modernizr-1.6.min.js"></script>
 </head>
 
 <body>
-  <div id="page">
-      <div id="header">
-          <div id="logo">
-            <h1>Articlr</h1>
-          </div>
-          <?php include("inc/myLocation.php"); ?>
-      </div>
+  <div id="pageOverlay">      

@@ -1,7 +1,3 @@
-  <div id="footer">
-      <p>Real time, geolocated, semantic, cloud based, web driven, socially contextual collaborative journalist mashup.</p>
-  </div>
-  <?php include("inc/relatedPictures.php");  ?>
 </div>
 <!-- Javascript at the bottom for fast page loading -->
 
@@ -19,7 +15,7 @@
 <!-- end concatenated and minified scripts-->
 
 
-<!-- asynchronous google analytics: mathiasbynens.be/notes/async-analytics-snippet 
+<!-- asynchronous google analytics: mathiasbynens.be/notes/async-analytics-snippet
      change the UA-XXXXX-X to be your site's ID -->
 <script>
  var _gaq = [['_setAccount', 'UA-XXXXX-X'], ['_trackPageview']];

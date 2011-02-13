@@ -1,7 +1,9 @@
 <div id="interestedIn" class="wrapping">
-    <label for="keywords"><h2>I am interested in</h2></label>
-    <form>
-        <input placeholder="Type keywords spearated by comma (,)" name="keywords" type="text" id="keywords" class="inputText"  />
-        <input type="submit" value="Update" class="awesome large green primary" />
-    </form>
+    <h2 class="openclose">I am interested in</h2>
+    <div class="body">
+        <form>
+            <input placeholder="Comma separated keywords here" name="keywords" type="text" id="keywords" class="inputText"  />
+            <input type="submit" value="Update" class="awesome large green primary" />
+        </form>
+    </div>
 </div>
