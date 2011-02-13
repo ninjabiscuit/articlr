@@ -8,7 +8,7 @@
             <?php
             for($i=1; $i<9; $i++) {
                 ?>
-                <li><a rel="picture" href="i/<?php echo $keyword;?>/<?php echo $i;?>l.jpg"><img src="i/<?php echo $keyword;?>/<?php echo $i;?>.jpg" /></a></li>
+                <li><a rel="picture" href="i/<?php echo $keyword;?>/<?php echo $i;?>l.jpg"><img src="i/<?php echo $keyword;?>/<?php echo $i;?>l.jpg" /></a></li>
                 <?php
             }
             ?>

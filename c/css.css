@@ -68,6 +68,7 @@ input { border: 0; }
 #relatedPictures .actions { margin: -25px 0 0 0; }
 .body { padding: 10px 0; float: left; }
 #interestedIn .body {display: none;}
+#relatedPictures img { width: 100px; }
 
 #relatedTweets, #relatedArticles, #peopleNearby { margin: 10px 0 0 0; }
 
