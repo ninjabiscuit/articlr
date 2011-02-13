@@ -62,63 +62,12 @@ var ARTICLR = (function(d){
       
       dom.startForm.className = "loading";
       
-      /*$.ajax({
-        type: 'GET', 
-        url: 'http://articlr-backend.heroku.com/context', 
-        data: data, 
-        dataType: 'json', 
-        success: function(body) {
-          dom.startForm.className = "";
-          dom.content.innerHTML = Mustache.to_html(dom.tweetTpl.innerHTML,body);
-        }, 
-        error: function(xhr, type) {
-          console.log(xhr, type);
-        } 
-      })*/
-      
-      $.getJSON( 'http://articlr-backend.heroku.com/context', data, cbFunc );
+      $.getJSON( '/context', data, cbFunc );
       
       function cbFunc (body) {
         dom.startForm.className = "";
         dom.content.innerHTML = Mustache.to_html(dom.tweetTpl.innerHTML,body);
       }
-      
-      // Take the provided url, and add it to a YQL query. Make sure you encode it!
-      //var yql = 'http://query.yahooapis.com/v1/public/yql?q=' + encodeURIComponent('select * from flickr.photos.search where text="'+data.tags+'" limit 10 ') + '&format=json&callback=?';
-      
-      /*function cbFunc(data) {
-        dom.content.innerHTML = Mustache.to_html(dom.flickrTpl.innerHTML,data);
-      };*/
-      
-      // Request that YSQL string, and run a callback function.
-      // Pass a defined function to prevent cache-busting.
-      //$.getJSON( yql, cbFunc );
-      
-      /*
-      yqlgeo.get('visitor',function(o){
-        if(o.error){
-          alert('No location found for user :(');
-        } else {
-          showphotos(o.place.woeid);
-        }
-      });
-      function showphotos(woeid){
-        var yql = 'select * from flickr.photos.search where woe_id=' + woeid;
-        var cb = 'dispphotos';
-        var src = 'http://query.yahooapis.com/v1/public/yql?q='+
-                  encodeURIComponent(yql) + '&format=json&callback=' + cb + '&'+
-                  'env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys';
-        var head = document.getElementsByTagName('head')[0];
-        var s = document.createElement('script');
-        s.setAttribute('id','yqlgeodata');
-        s.setAttribute('src',src);
-        head.appendChild(s);
-      }
-      function dispphotos(o){
-        console.log(o);
-      }*/
-      
-      
     },
     
     localStorage : function() {
