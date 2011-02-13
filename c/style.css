@@ -114,7 +114,7 @@ a, a:active, a:visited { color: #607890; }
 a:hover { color: #036; }
 
 
-ul, ol { margin-left: 1.8em; }
+ul, ol, li { margin:0; padding:0; list-style:none; }
 ol { list-style-type: decimal; }
 
 /* Remove margins for navigation lists */
@@ -215,17 +215,31 @@ button {  width: auto; overflow: visible; }
 /* Fix clearfix: blueprintcss.lighthouseapp.com/projects/15318/tickets/5-extra-margin-padding-bottom-of-page */
 .clearfix { zoom: 1; }
 
+/* ====== media ====== (Thnx @Stubbornella) */
+.media, .bd {overflow:hidden; _overflow:visible; zoom:1; position:relative;}
+.media .img {float:left; margin-right: 10px;}
+.media .img img{display:block;}
+.media .imgExt{float:right; margin-left: 10px;}
 
+.left {
+  float:left;
+}
 
+.right {
+  float:right;
+}
 
-
+.clear {
+  clear:both;
+}
 
  /* Primary Styles
     Author: 
  */
-
+ 
 body {
-  padding:15px;
+  -webkit-text-size-adjust:none;
+  padding:10px;
 }
 
 h1 {
@@ -233,10 +247,35 @@ h1 {
   font-size:1.5385em;
 }
 
+form {
+  margin-bottom:30px;
+}
+
 textarea {
-  width:100%;
   margin:8px 0;
   height:100px;
+  width:100%;
+  padding:0;
+}
+
+.avatar {
+  background:#000;
+  width:60px;
+  height:60px;
+}
+
+.star {
+  position:absolute;
+  top:0;
+  right:10px;
+}
+
+h3 {
+  font-size:1.2308em;
+}
+
+#content {
+  padding-top:20px;
 }
 
 /*input[type="submit"] {
@@ -249,12 +288,12 @@ textarea {
   border-radius:5px;
   padding:10px;
   border:0px;
-}*/
+}
 
 
 #contentHolder {
   display:none;
-}
+}*/
 
 
 
