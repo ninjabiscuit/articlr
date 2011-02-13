@@ -48,23 +48,66 @@
       </form>
       
       <div id="contentHolder">
-        <a href="" id="startAgain">Start again</a>
-        <div id="content"></div>
+        <ul>
+          <li class="left"><a href="" id="startAgain">Start again</a></li>
+          <li class="right"><a href="" id="pause">Pause</a></li>
+        </ul>
+        
+        <div id="content" class="clear"></div>
       </div>
       
     </div>
     
     <footer>
       
+      
     </footer>
+    
+    <!-- Holder for js template text/html hides it from view -->
+    <script type="text/html" id="tweets-tpl">
+      {{#context}}
+        {{#tweets}}
+            <div class="tweet media">
+              <a class="star" href="" data-id="{{.id}}">fav</a>
+              <a href="http://twitter.com/#!/{{user}}" class="img avatar"><img src="{{photo}}" /></a>
+              <div class="bd">
+                <h3><a href="http://twitter.com/#!/{{user}}">{{user}}</a></h3>
+                <p>{{message}}</p>
+                <p class="location">Location: {{location}}</p>
+                <cite><a href="http://twitter.com/#!/{{user}}/status/{{id}}">{{date}}</a></cite>
+              </div>
+            </div>
+        {{/tweets}}
+      {{/context}}
+    </script>
+    
+    <!-- Holder for js template text/html hides it from view -->
+    <script type="text/html" id="flickr-tpl">
+      {{#query}}
+        {{#reults}}
+          {{#photo}}
+            <img src='http://farm{{farm}}.static.flickr.com/{{server}}/{{id}}_{{secret}}.jpg' alt='{{title}}' /> 
+          {{/photo}}
+        {{/results}}
+      {{/query}}
+    </script>
+    
+    
   </div> <!--! end of #container -->
 
 
   <!-- Javascript at the bottom for fast page loading -->
 
-  <script src="j/zepto/zepto.js"></script>
-  <script src="j/zepto/ajax.js"></script>
+  <!--<script src="j/zepto/zepto.js"></script>
+  <script src="j/zepto/ajax.js"></script>-->
   
+  <!-- Grab Google CDN's jQuery. fall back to local if necessary -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="j/jquery-1.5.js"%3E%3C/script%3E'))</script>
+  
+  <script src="j/mustache.js"></script>
+  
+  <script src="http://isithackday.com/hacks/geo/yql-geo-library/yqlgeo.js"></script>
   
   <!-- scripts concatenated and minified via ant build script-->
   <script src="j/plugins.js"></script>
